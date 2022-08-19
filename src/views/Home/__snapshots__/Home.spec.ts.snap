@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home render renders correctly: Home 1`] = `
+<div>
+  <div>
+    <div
+      class="header"
+    >
+      <div>
+        <input
+          data-testid="input"
+          placeholder="Buscar por titulo"
+          type="text"
+        />
+      </div>
+       
+      <div>
+        <select
+          id="select"
+        >
+          <option
+            value=""
+          >
+            
+      Todos
+    
+          </option>
+          <option
+            value="processing"
+          >
+            
+      Processando
+    
+          </option>
+          <option
+            value="processed"
+          >
+            
+      Solicitada
+    
+          </option>
+          <option
+            value="created"
+          >
+            
+      Concluída
+    
+          </option>
+        </select>
+      </div>
+    </div>
+     
+    <div
+      class="container"
+    >
+      <div
+        class="loading"
+      />
+       
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
